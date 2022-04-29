@@ -420,8 +420,6 @@ img {
 .container.links .items + .items {
   margin-left: 10px;
 }
-.container.links .items {
-}
 .container.links .thumb {
   display: flex;
   justify-content: center;
