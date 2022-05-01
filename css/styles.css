@@ -265,10 +265,36 @@ img {
 .team .team-item:not(:nth-last-child(1)) {
   margin-right: 30px;
 }
-.team .position {
+.list.team-social {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
   padding-bottom: 30px;
 }
 
+.social-item:not(:nth-last-child(1)) {
+  margin-right: 10px;
+}
+.team-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+
+  fill: #AFB1B8;
+  background-color: var(--primary-bg-color);
+}
+.team-link:hover {
+  fill: var(--third-color-text);
+  background-color: var(--accent-text-color);
+}
+.team-icon {
+  height: 20px;
+  width: 20px;
+}
 /* Clients */
 .clients .section-title {
   margin-bottom: 50px;
