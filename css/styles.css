@@ -287,7 +287,8 @@ img {
   fill: #AFB1B8;
   background-color: var(--primary-bg-color);
 }
-.team-link:hover {
+.team-link:hover,
+.team-link:focus {
   fill: var(--third-color-text);
   background-color: var(--accent-text-color);
 }
