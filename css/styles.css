@@ -21,6 +21,7 @@
   --border-color-second: #eeeeee;
   --color-black: #000000;
   --icon-color: #afb1b8;
+  --icon-bg-color: rgba(255, 255, 255, 0.1);
 }
 h1,
 h2,
@@ -98,7 +99,7 @@ img {
 
 /* Header */
 .header {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--border-color);
 }
 .header-container {
   display: flex;
@@ -310,7 +311,7 @@ img {
   border-radius: 50%;
 
   fill: var(--icon-color);
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--icon-bg-color);
 }
 .team .icon {
   width: 20px;
