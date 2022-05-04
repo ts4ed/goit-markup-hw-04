@@ -50,7 +50,21 @@ img {
   height: auto;
 }
 .current {
+  display: flex;
+  position: relative;
   color: var(--accent-text-color);
+}
+.current::after{
+  position: absolute;
+  content: "";
+
+  bottom: 0;
+
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+
+  background-color: var(--accent-bg-color);
 }
 .link {
   text-decoration: none;
@@ -618,7 +632,8 @@ img {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.modal .button:hover .exit {
+.modal .button:hover .exit,
+.modal .button:focus .exit {
   fill: var(--accent-text-color);
 }
 .exit {
