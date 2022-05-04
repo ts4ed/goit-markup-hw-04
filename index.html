@@ -62,7 +62,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="hero-button" type="button">Заказать услугу</button>
+          <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
 
@@ -125,12 +125,21 @@
           <ul class="list card-set">
             <li class="work-item card-item">
               <img src="./images/box1.jpg" width="370" height="294" alt="Разработка" />
+              <div class="work-variant">
+                <p class="variant-title">ДЕСКТОПТНЫЕ ПРИЛОЖЕНИЯ</p>
+              </div>
             </li>
             <li class="work-item card-item">
               <img src="./images/box2.jpg" width="370" height="294" alt="Поддержка" />
+              <div class="work-variant">
+                <p class="variant-title">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ </p>
+              </div>
             </li>
             <li class="work-item card-item">
               <img src="./images/box3.jpg" width="370" height="294" alt="Дизайн" />
+              <div class="work-variant">
+                <p class="variant-title">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ </p>
+              </div>
             </li>
           </ul>
         </div>
@@ -147,37 +156,56 @@
                 <h3 class="title">Игорь Демьяненко</h3>
                 <p class="position">Product Designer</p>
                 <ul class="list team-social">
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+                  <li class="items-icon">
+                    <a
+                      class="icon-social"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="items-icon">
+                    <a
+                      class="icon-social"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="items-icon">
+                    <a
+                      class="icon-social"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="items-icon">
+                    <a
+                      class="icon-social"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
-              
             </li>
             <li class="team-item card-item">
               <img
@@ -190,75 +218,113 @@
                 <h3 class="title">Ольга Репина</h3>
                 <p class="position">Frontend Developer</p>
                 <ul class="list team-social">
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+                  <li class="items-icon">
+                    <a
+                      class="icon-social"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="items-icon">
+                    <a
+                      class="icon-social"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="items-icon">
+                    <a
+                      class="icon-social"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="items-icon">
+                    <a
+                      class="icon-social"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
-              
             </li>
             <li class="team-item card-item">
               <img src="./images/team3.jpg" width="270" height="260" alt="Marketing photo" />
               <div class="team-wrapper">
                 <h3 class="title">Николай Тарасов</h3>
                 <p class="position">Marketing</p>
-                 <ul class="list team-social">
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+                <ul class="list team-social">
+                  <li class="items-icon">
+                    <a
+                      class="icon-social"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="items-icon">
+                    <a
+                      class="icon-social"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="items-icon">
+                    <a
+                      class="icon-social"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="items-icon">
+                    <a
+                      class="icon-social"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
-             
             </li>
             <li class="team-item card-item">
               <img src="./images/team4.jpg" width="270" height="260" alt="UI Designer photo" />
@@ -266,37 +332,56 @@
                 <h3 class="title">Михаил Ермаков</h3>
                 <p class="position">UI Designer</p>
                 <ul class="list team-social">
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+                  <li class="items-icon">
+                    <a
+                      class="icon-social"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="items-icon">
+                    <a
+                      class="icon-social"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="items-icon">
+                    <a
+                      class="icon-social"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="items-icon">
+                    <a
+                      class="icon-social"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
-              
             </li>
           </ul>
         </div>
@@ -306,56 +391,80 @@
       <section class="section clients">
         <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
-        <ul class="list card-set">
-          <li class="clients-item card-item">
-            <a class="link clients-link" href="" target="_blank"
-                  rel="noopener noreferrer nofollow">
-              <svg class="icon">
-              <use href="./images/icons.svg#icon-client1"></use>
-            </svg>
-            </a>
-          </li>
-          <li class="clients-item card-item">
-            <a class="link clients-link" href="" target="_blank"
-                  rel="noopener noreferrer nofollow">
-              <svg class="icon">
-              <use href="./images/icons.svg#icon-client2"></use>
-            </svg>
-            </a>
-          </li>
-          <li class="clients-item card-item">
-            <a class="link clients-link" href="" target="_blank"
-                  rel="noopener noreferrer nofollow">
-              <svg class="icon">
-              <use href="./images/icons.svg#icon-client3"></use>
-            </svg>
-            </a>
-          </li>
-          <li class="clients-item card-item">
-            <a class="link clients-link" href="" target="_blank"
-                  rel="noopener noreferrer nofollow">
-              <svg class="icon">
-              <use href="./images/icons.svg#icon-client4"></use>
-            </svg>
-            </a>
-          </li>
-          <li class="clients-item card-item">
-            <a class="link clients-link" href="" target="_blank"
-                  rel="noopener noreferrer nofollow">
-              <svg class="icon">
-              <use href="./images/icons.svg#icon-client5"></use>
-            </svg>
-            </a>
-          </li>
-          <li class="clients-item card-item">
-            <a class="link clients-link" href="" target="_blank"
-                  rel="noopener noreferrer nofollow">
-              <svg class="icon">
-              <use href="./images/icons.svg#icon-client6"></use>
-            </svg>
-            </a>
-          </li>
-        </ul>
+          <ul class="list card-set">
+            <li class="clients-item card-item">
+              <a
+                class="link clients-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                <svg class="icon">
+                  <use href="./images/icons.svg#icon-client1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item card-item">
+              <a
+                class="link clients-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                <svg class="icon">
+                  <use href="./images/icons.svg#icon-client2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item card-item">
+              <a
+                class="link clients-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                <svg class="icon">
+                  <use href="./images/icons.svg#icon-client3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item card-item">
+              <a
+                class="link clients-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                <svg class="icon">
+                  <use href="./images/icons.svg#icon-client4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item card-item">
+              <a
+                class="link clients-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                <svg class="icon">
+                  <use href="./images/icons.svg#icon-client5"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item card-item">
+              <a
+                class="link clients-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                <svg class="icon">
+                  <use href="./images/icons.svg#icon-client6"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
@@ -388,37 +497,65 @@
         <div class="social-links">
           <h2 class="social-title">присоединяйтесь</h2>
           <ul class="list social">
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="items-icon">
-                  <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <svg class="icon">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+            <li class="items-icon">
+              <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
+                <svg class="icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="items-icon">
+              <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
+                <svg class="icon">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="items-icon">
+              <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
+                <svg class="icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="items-icon">
+              <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
+                <svg class="icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="button" data-modal-close>
+          <svg class="exit">
+            <use href="./images/icons.svg#icon-exit"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
+    <script>
+      const { height: pageHeaderHeight } = document
+        .querySelector('.header .container')
+        .getBoundingClientRect();
+
+      document.body.style.paddingTop = `${pageHeaderHeight}px`;
+    </script>
+    <script>
+      (() => {
+        document.querySelector('.js-speaker-form').addEventListener('submit', e => {
+          e.preventDefault();
+
+          new FormData(e.currentTarget).forEach((value, name) => console.log(`${name}: ${value}`));
+        });
+      })();
+    </script>
   </body>
 </html>
