@@ -155,7 +155,7 @@
               <div class="team-wrapper">
                 <h3 class="title">Игорь Демьяненко</h3>
                 <p class="position">Product Designer</p>
-                <ul class="list team-social">
+                <ul class="list social-list">
                   <li class="items-icon">
                     <a
                       class="icon-social"
@@ -217,7 +217,7 @@
               <div class="team-wrapper">
                 <h3 class="title">Ольга Репина</h3>
                 <p class="position">Frontend Developer</p>
-                <ul class="list team-social">
+                <ul class="list social-list">
                   <li class="items-icon">
                     <a
                       class="icon-social"
@@ -274,7 +274,7 @@
               <div class="team-wrapper">
                 <h3 class="title">Николай Тарасов</h3>
                 <p class="position">Marketing</p>
-                <ul class="list team-social">
+                <ul class="list social-list">
                   <li class="items-icon">
                     <a
                       class="icon-social"
@@ -331,7 +331,7 @@
               <div class="team-wrapper">
                 <h3 class="title">Михаил Ермаков</h3>
                 <p class="position">UI Designer</p>
-                <ul class="list team-social">
+                <ul class="list social-list">
                   <li class="items-icon">
                     <a
                       class="icon-social"
@@ -472,7 +472,7 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <div>
+        <div class="footer-item">
           <a class="link logo" href="./index.html">Web<span class="logo-white">Studio</span></a>
           <address class="address">
             <ul class="list">
@@ -494,9 +494,9 @@
             </ul>
           </address>
         </div>
-        <div class="social-links">
+        <div class="footer-item">
           <h2 class="social-title">присоединяйтесь</h2>
-          <ul class="list social">
+          <ul class="list social-list">
             <li class="items-icon">
               <a class="icon-social" href="" target="_blank" rel="noopener noreferrer nofollow">
                 <svg class="icon">
@@ -546,7 +546,7 @@
         .querySelector('.header .container')
         .getBoundingClientRect();
 
-      document.body.style.paddingTop = `${pageHeaderHeight}px`;
+      document.body.style.paddingTop = `${pageHeaderHeight -1}px`;
     </script>
     <script>
       (() => {
